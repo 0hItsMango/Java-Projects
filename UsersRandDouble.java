@@ -5,7 +5,7 @@ import java.io.*;
    {
       public static double equat (double x, double y)
       {
-         return (Math.random() * (y - x) + 1) + x;
+         return (Math.random() * (y - x)) + x;
       }
       
       public static void main (String [] args)
