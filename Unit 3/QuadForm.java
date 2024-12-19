@@ -10,7 +10,7 @@ class QuadForm{
     public static void equation(double a, double b, double c){
         System.out.println("Your equation is: \n" + a + "x^2 + " + b + "x + " + c + " = 0");
         String roots = "Your roots are:";
-        String is = "Your string is:";
+        String is = "Your root is:";
 
         double d = Math.pow(b, 2) - (4 * (a * c));
 
